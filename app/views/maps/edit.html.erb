@@ -31,6 +31,8 @@ for (var i = 0; i < savedState.length; i++) {
     var currGridElement = savedState[i][j]
     if (currGridElement) {
       currGridCoord.html(currGridElement)
+      var imageUrlString = "/assets/" + currGridElement + ".png"
+      $(this).css("background-image", "url(" + imageUrlString + ")")
     } else {
       currGridCoord.html("Nil")
     }
@@ -61,7 +63,8 @@ $( ".btn-lg" ).on("click", function() {
   } else {
     grid[rowNum][colNum] = currElement
   }
-  console.log("Grid", grid)
+  var imageUrlString = "/assets/" + currElement + ".png"
+  $(this).css("background-image", "url(" + imageUrlString + ")")
   $(this).html(currElement)
   $("#map_data").val(JSON.stringify(grid))
 })
