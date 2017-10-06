@@ -17,3 +17,16 @@
         </tr>
   </tbody>
 </table>
+
+<table class="table">
+  <tbody>
+    <%= (1..3).each do |i| %>
+      <tr>
+        <%= (1..3).each do |j| %>
+          <%= id_string = i.to_s + "-" + j.to_s %>
+          <td><button type="button"  class="btn btn-secondary btn-lg" id=id_string>Nil</button></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
