@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to Augmented Reality Dungeons & Dragons (AR-D&D) 
 
-Things you may want to cover:
+![](logo.png)
 
-* Ruby version
+To run locally, follow the instructions here: 
 
-* System dependencies
+https://guides.rubyonrails.org/getting_started.html#starting-up-the-web-server
 
-* Configuration
+Created by Akiba Sato, Bruce Chen, Cameron Braunstein, and Thomas Willkens, 2017.
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
